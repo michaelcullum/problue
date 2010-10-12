@@ -233,12 +233,12 @@ div[class].topic-actions {
 /* Post body styles
 ----------------------------------------*/
 .postbody {
-	padding: 0;
-	line-height: 1.48em;
-	color: #333333;
-	width: 76%;
-	float: left;
-	clear: both;
+padding: 0;
+line-height: 1.48em;
+color: #333333;
+width: 76%;
+float: right;
+clear: both;
 }
 
 .postbody .ignore {
@@ -725,17 +725,17 @@ fieldset.polls dd div {
 /* Poster profile block
 ----------------------------------------*/
 .postprofile {
-	/* Also see tweaks.css */
-	margin: 5px 0 10px 0;
-	min-height: 80px;
-	color: #666666;
-	border-left: 1px solid #FFFFFF;
-	width: 22%;
-	float: right;
-	display: inline;
+/* Also see tweaks.css */
+margin: 5px 0 10px 0;
+min-height: 80px;
+color: #666666;
+border-right: 1px solid #FFFFFF;
+width: 22%;
+float: left;
+display: inline;
 }
 .pm .postprofile {
-	border-left: 1px solid #DDDDDD;
+border-right: 1px solid #DDDDDD;
 }
 
 .postprofile dd, .postprofile dt {
