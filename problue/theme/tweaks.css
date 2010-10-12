@@ -76,6 +76,10 @@ dl.icon {
 	width: 25%;
 }
 
+* html #wrap {
+   width: 900px;
+}
+
 /* Correctly clear floating for details on profile view */
 *:first-child+html dl.details dd {
 	margin-left: 30%;
