@@ -132,6 +132,13 @@ dd.posts, dd.topics, dd.views {
 	font-size: 1.2em;
 }
 
+dd.author {
+   width: 10%;
+   text-align: center;
+   line-height: 2.2em;
+   font-size: 1.2em;
+}
+
 /* List in forum description */
 dl.icon dt ol,
 dl.icon dt ul {
@@ -145,8 +152,8 @@ dl.icon dt li {
 }
 
 dd.lastpost {
-	width: 25%;
-	font-size: 1.1em;
+   width: 15%;
+   font-size: 1.1em;
 }
 
 dd.redirect {
